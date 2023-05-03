@@ -7,6 +7,7 @@ Atividade para analisar e fazer alterações em um banco de dados já criado, pr
 # 1) Quantas vezes Natalie Portman foi indicada ao Oscar?
 
 Natalie Portman indicada ao Oscar 3 vezes.
+
 SELECT COUNT(id_movie) from movies where movies.`name` = 'Natalie Portman';
 
 
